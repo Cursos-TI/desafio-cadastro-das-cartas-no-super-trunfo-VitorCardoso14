@@ -4,9 +4,9 @@
 
 int main() {
     //carta 1
-       char Estado1[50], Codigo_da_Carta1[50], Nome_da_Cidade1[50], Estado2[50], Codigo_da_Carta2[50], Nome_da_Cidade2[50];
-       int Populacao1, Populacao2, Numero_de_Pontos_Turisticos1, Numero_de_Pontos_Turisticos2;
-       float Area1, PIB1, Area2, PIB2;
+       char Estado1[50], Codigo_da_Carta1[50], Nome_da_Cidade1[50];
+       int Populacao1, Numero_de_Pontos_Turisticos1;
+       float Area1, PIB1;
 
 
        printf("Digite o Estado da Carta 1: ");
@@ -31,6 +31,10 @@ int main() {
        scanf("%d", &Numero_de_Pontos_Turisticos1);
 
     //carta 2
+
+       char Estado2[50], Codigo_da_Carta2[50], Nome_da_Cidade2[50];
+       int Populacao2, Numero_de_Pontos_Turisticos2;
+       float Area2, PIB2;
 
        printf("Digite o Estado da Carta 2: ");
        scanf("%s", &Estado2);
