@@ -134,9 +134,12 @@ int main() {
    //Comparação das carta se a carta 1 for maior apresenta 1 indicando que ela ganhou se for menor que a carta 2 aparece 0 indicando que a carta 2 ganhou
    //apenas na densidade populacional foi usado < por que o menor é quem ganha
 
-       printf("População: Carta %lu Venceu!\n", Populacao1 > Populacao2);
-       printf("Área: Carta %d Venceu!\n", Area1 > Area2);
-       printf("PIB: Carta %d Venceu!\n", PIB1 > PIB2);
+
+   //pode ser comparado dessa forma usando a variavel da comparação acima
+       printf("População: Carta %d Venceu!\n", Populacao);
+       printf("Área: Carta %d Venceu!\n", Area);
+       printf("PIB: Carta %d Venceu!\n", PIB);
+   //ou comparado dessa forma comparando os dois valores direto no printf
        printf("Número de Pontos Turisticos: Carta %d Venceu!\n", Numero_de_Pontos_Turisticos1 > Numero_de_Pontos_Turisticos2);
        printf("Densidade Populacional: Carta %d Venceu!\n", Densidade_Populacional1 < Densidade_Populacional2);
        printf("PIB per Capita: Carta %d Venceu!\n", PIB_per_Capita1 > PIB_per_Capita2);
